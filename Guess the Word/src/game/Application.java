@@ -6,8 +6,9 @@ public class Application {
 
         GuessTheWord game = new GuessTheWord();
         game.start();
+        System.out.println("This game has started.");
         game.end();
-
+        System.out.println("The game has ended");
 
     }
 }
